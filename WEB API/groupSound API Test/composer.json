@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "MyApp\\": "app/",
+      "Config\\": "config/",
+      "APIClass\\": "class/"
+    }
+  },
+  "require": {
+    "cboden/ratchet": "^0.4",
+    "ext-pdo": "*"
+  }
+}
